@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+@config '../tailwind.config.js';
+
+/* 搜索关键词高亮 */
+.search-highlight-block b {
+  color: hsl(var(--theme-color-primary));
+}
